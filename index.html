@@ -1,0 +1,30 @@
+<html>
+    
+    <head>
+        <link rel= "stylesheet" href="style.css"/> 
+        <meta http-equiv="Conten-Type" content="text/html;charset=UTF-8">
+
+        <title>Gerador De senhas</title>
+
+    </head>
+    <body>
+        <div class="tudo">
+            <h1>Gerador De Senhas</h1>
+
+            <div class="topo">
+                <label >Qual o tamanho da senha?</label>
+            </div>
+            <div class="middle">
+                <input class="input" type="number" id="pass" min="0" max="30"/>
+                <button class="botao" onclick="generatePass()">Gerar Senha</button>
+            </div> 
+            <div>
+                <span class="span" id="newPassword"></span>
+            </div>
+
+        </div>  
+    </body>
+    <script src="./script.js"></script>   
+
+
+</html>
