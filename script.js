@@ -9,6 +9,10 @@ function generatePass(){
         alert('Digite o tamanho da sua senha!');
         return;    
     }
+    if(pass.value >30){
+        alert('Senhas podem ter no maximo 30 digitos.');
+        return;    
+    }
 
     let charset = "!@#$abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     let password = "";

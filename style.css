@@ -6,7 +6,7 @@ body{
     font-family: 'Noto Sans', sans-serif;
     color: #1cd42a;
     text-align: center;
-    -webkit-text-stroke-width: 0.05px; /* largura da borda */
+    -webkit-text-stroke-width: 0.01px; /* largura da borda */
     -webkit-text-stroke-color: rgb(255, 255, 255); /* cor da borda */
     
 }
@@ -43,7 +43,8 @@ body{
     h1{
         font-size: 36px;
     }
-    .span{
+    span{
+        border-radius:10px ;
         background-color: #0303037e;
         color: rgb(255, 255, 255);
         
